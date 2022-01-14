@@ -25,7 +25,7 @@ If the transaction is successful, the newly minted token is owned by the account
   "TransferFee": 314,
   "Flags": 2147483659,
   "Fee": 10,
-  "URI": "ipfs://bafybeigdyrzt5sfp7udm7hu76uh7y26nf4dfuylqabf3oclgtqy55fbzdi"
+  "URI": "697066733a2f2f62616679626569676479727a74357366703775646d37687537367568377932366e6634646675796c71616266336f636c67747179353566627a6469"
   "Memos": [
         {
             "Memo": {
@@ -140,7 +140,7 @@ The field MUST NOT be present if <code>tfTransferable</code> is not set. If it i
    </td>
    <td><code>BLOB</code>
    </td>
-   <td>A URI that points to the data or metadata associated with the NFT. This field need not be an HTTP or HTTPS URL; it could be an IPFS URI, a magnet link, immediate data encoded as an RFC2379 <a href="https://datatracker.ietf.org/doc/html/rfc2397">"data" URL</a>, or even an opaque issuer-specific encoding. The URI is NOT checked for validity, but the field is limited to a maximum length of 256 bytes.
+   <td>Hex value representing URI that points to the data or metadata associated with the NFT. This field need not be an HTTP or HTTPS URL; it could be an IPFS URI, a magnet link, immediate data encoded as an RFC2379 <a href="https://datatracker.ietf.org/doc/html/rfc2397">"data" URL</a>, or even an opaque issuer-specific encoding. The URI is NOT checked for validity, but the field is limited to a maximum length of 256 bytes.
    </td>
   </tr>
   <tr>
